@@ -14,7 +14,6 @@ Key features implemented:
 - Performance metrics display (response time)
 - Safe execution with error handling
 
-> Note: Deployment is optional. The system can be run entirely locally.
 
 ---
 
@@ -83,20 +82,6 @@ POST /api/query → Submit natural language query
 GET /api/query/history → Get previous queries
 
 
-## Features Implemented
 
-Dynamic schema discovery from DB
-
-Document ingestion with preview
-
-Natural language query to SQL (dynamic, not hard-coded)
-
-Query caching & history
-
-Query auto-suggestions from previous queries
-
-Responsive frontend with React & Tailwind
-
-Error handling and feedback for user actions
 
 Safe SQL execution
