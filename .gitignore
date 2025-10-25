@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+build/
+
+# Env files
+.env
+.env.local
+
+# Uploaded documents
+uploaded_docs/
+
+# IDE files
+.vscode/
+*.log

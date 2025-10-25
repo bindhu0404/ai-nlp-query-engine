@@ -1,0 +1,24 @@
+# --- Core backend ---
+fastapi==0.115.2
+uvicorn==0.32.0
+python-dotenv==1.0.1
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+pandas==2.2.3
+PyPDF2==3.0.1
+
+# --- AI / NLP stack (Hugging Face only, no OpenAI) ---
+transformers==4.45.2
+sentence-transformers==2.6.1
+torch==2.2.2+cpu ; sys_platform == "win32"
+numpy<2           # ensure PyTorch compatibility
+scikit-learn==1.5.2
+
+# --- Vector + utils ---
+supabase==2.5.1
+requests==2.32.3
+tqdm==4.66.5
+
+# --- Optional nice-to-haves ---
+aiofiles==23.2.1          # for async file uploads
+pydantic==2.9.2
