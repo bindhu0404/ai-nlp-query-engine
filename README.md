@@ -14,10 +14,6 @@ Key features implemented:
 - Performance metrics display (response time)
 - Safe execution with error handling
 
-
----
-
-
 ---
 
 ## Setup Instructions
