@@ -19,3 +19,8 @@ uploaded_docs/
 .vscode/
 *.log
 backend/model_cache/
+*.safetensors
+*.pkl
+*.zip
+*.mp4
+
